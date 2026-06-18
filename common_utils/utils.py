@@ -2,10 +2,15 @@ import numpy as np
 import pandas as pd
 
 
-def cleaning_numeric_columns(filename):
+def load_data(path: str) -> pd.DataFrame:
+    df = pd.read_csv(path)
+    return df
+
+
+def cleaning_numeric_columns(df: pd.DataFrame) -> pd.DataFrame:
     from pandas.errors import EmptyDataError
     try :
-        df = pd.read_csv(filename)
+        df = df.copy()
         df["discounted_price"] = (df["discounted_price"].str.replace(",", "")
                                   .str.replace("₹", "").astype(float))
         df["actual_price"] = (df["actual_price"].str.replace(",", "")
@@ -29,3 +34,15 @@ def cleaning_numeric_columns(filename):
         return "This file is empty on disk"
     except Exception as e:
         return e
+
+
+def extract_main_category(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+    df["main_category"] = df["category"].str.split("|").str[0]
+    return df
+
+
+def calculate_popularity_score(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+    df["popularity_score"] = df["rating"] * np.log10(df["rating_count"] + 1)
+    return df
