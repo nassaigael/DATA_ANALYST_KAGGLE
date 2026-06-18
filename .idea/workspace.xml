@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06a696bc-107f-45a6-af70-887394a21b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/function/BEGINNER/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/BEGINNER/ex1_3_stats_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/BEGINNER/ex1_4_filtrage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/BEGINNER/ex1_5_tri.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/BEGINNER/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/function/BEGINNER/utils/ex1_2_nettoyage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/BEGINNER/ex1_1_exploration.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/BEGINNER/ex1_1_exploration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="48" />
+    <option name="cachedIndexableFilesCount" value="16" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,73 +26,79 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nassaigael/DATA_ANALYST_KAGGLE.git",
-    "accountId": "d58ee084-4454-4e0a-9058-3e1a61ca1cac"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nassaigael&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nassaigael/DATA_ANALYST_KAGGLE.git&quot;,
+    &quot;accountId&quot;: &quot;d58ee084-4454-4e0a-9058-3e1a61ca1cac&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.613928344883704" />
-      <entry key="MS500" value="3.5973855004762516" />
-      <entry key="S2" value="6.3269362226087615" />
-      <entry key="S5" value="11.954294053858806" />
-      <entry key="S10" value="19.225178565128004" />
-      <entry key="S30" value="30.705380493543636" />
-      <entry key="S60" value="35.48946829898777" />
-      <entry key="M2" value="40.60060896660235" />
-      <entry key="M5" value="55.28200822435399" />
-      <entry key="M10" value="81.24926957477489" />
-      <entry key="M15" value="108.44213105405849" />
-      <entry key="M30" value="185.70806988016085" />
-      <entry key="H1" value="326.8610270518019" />
-      <entry key="H2" value="548.8142438462384" />
-      <entry key="H4" value="788.9709948246639" />
-      <entry key="D1" value="1136.4600028520788" />
-      <entry key="W1" value="1216.8576194231505" />
+      <entry key="MS100" value="1.5624277456606737E-142" />
+      <entry key="MS500" value="4.3699302975216866E-29" />
+      <entry key="S2" value="1.05604551737157E-7" />
+      <entry key="S5" value="0.003370092250227283" />
+      <entry key="S10" value="0.15595079946235813" />
+      <entry key="S30" value="3.2351308099341227" />
+      <entry key="S60" value="8.240332405712513" />
+      <entry key="M2" value="14.724735516906772" />
+      <entry key="M5" value="29.494764079336438" />
+      <entry key="M10" value="56.12384440112462" />
+      <entry key="M15" value="81.99691379920353" />
+      <entry key="M30" value="156.41277900976363" />
+      <entry key="H1" value="300.05028227254576" />
+      <entry key="H2" value="543.247165075795" />
+      <entry key="H4" value="833.2738122344502" />
+      <entry key="D1" value="1295.6705888065912" />
+      <entry key="W1" value="1408.8676551684673" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="1.0331509108658801E-126" />
-      <entry key="S5" value="6.274707129762362E-51" />
-      <entry key="S10" value="1.3097495795542846E-25" />
-      <entry key="S30" value="1.1504742288656295E-8" />
-      <entry key="S60" value="2.1045860680800525E-4" />
-      <entry key="M2" value="0.030521551789376485" />
-      <entry key="M5" value="0.84445859120628" />
-      <entry key="M10" value="3.7393522291530417" />
-      <entry key="M15" value="7.050667734945752" />
-      <entry key="M30" value="16.43152088965142" />
-      <entry key="H1" value="34.25144164491801" />
-      <entry key="H2" value="63.5037610380401" />
-      <entry key="H4" value="95.6165878289834" />
-      <entry key="D1" value="142.28827028384103" />
-      <entry key="W1" value="153.0982588613311" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.000000000000001" />
+      <entry key="S5" value="1.000001008034108" />
+      <entry key="S10" value="1.0010366345302366" />
+      <entry key="S30" value="1.1323109137022793" />
+      <entry key="S60" value="1.5109474541919936" />
+      <entry key="M2" value="2.2578881879145922" />
+      <entry key="M5" value="4.585749021292877" />
+      <entry key="M10" value="7.963582606523136" />
+      <entry key="M15" value="10.636289071641654" />
+      <entry key="M30" value="17.68399387991715" />
+      <entry key="H1" value="32.81466618995302" />
+      <entry key="H2" value="61.885630193780024" />
+      <entry key="H4" value="98.56614463983954" />
+      <entry key="D1" value="158.54278333270454" />
+      <entry key="W1" value="173.3608601629291" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5086066799705804" />
-      <entry key="MS500" value="3.546804241929387" />
-      <entry key="S2" value="6.303017090494672" />
-      <entry key="S5" value="11.93588472732631" />
-      <entry key="S10" value="19.209858733531494" />
-      <entry key="S30" value="30.696873394685035" />
-      <entry key="S60" value="35.48468539368202" />
-      <entry key="M2" value="40.62700086464732" />
-      <entry key="M5" value="56.11014001248012" />
-      <entry key="M10" value="84.9553166546313" />
-      <entry key="M15" value="115.45076757881799" />
-      <entry key="M30" value="202.08630696630362" />
-      <entry key="H1" value="361.0522253316602" />
-      <entry key="H2" value="612.2611997129338" />
-      <entry key="H4" value="884.5450826261716" />
-      <entry key="D1" value="1278.7378643015038" />
-      <entry key="W1" value="1369.9542826768754" />
+      <entry key="MS100" value="0.00146996752676862" />
+      <entry key="MS500" value="0.2713073429704518" />
+      <entry key="S2" value="0.7217144896524441" />
+      <entry key="S5" value="0.8805883934126751" />
+      <entry key="S10" value="1.0823277492660404" />
+      <entry key="S30" value="4.24265700502753" />
+      <entry key="S60" value="9.593524021173968" />
+      <entry key="M2" value="16.83960847731541" />
+      <entry key="M5" value="33.97434860357994" />
+      <entry key="M10" value="63.99863057335432" />
+      <entry key="M15" value="92.55365729300075" />
+      <entry key="M30" value="174.030340842488" />
+      <entry key="H1" value="332.80332627408916" />
+      <entry key="H2" value="605.0753056800614" />
+      <entry key="H4" value="931.7948943350473" />
+      <entry key="D1" value="1454.2015258049937" />
+      <entry key="W1" value="1582.226671907122" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,38 +113,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.ex1_1_exploration.executor": "Run",
-    "Python.ex1_2_nettoyage.executor": "Run",
-    "Python.ex1_3_stats_base.executor": "Run",
-    "Python.ex1_4_filtrage.executor": "Run",
-    "Python.ex1_5_tri.executor": "Run",
-    "Python.ex2_1_categories.executor": "Run",
-    "Python.ex2_2_analyse_categories.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "E:/DATA_ANALYST_KAGGLE/data",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex1_1_exploration.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex1_2_nettoyage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex1_3_stats_base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex1_4_filtrage.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex1_5_tri.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex2_1_categories.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex2_2_analyse_categories.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/DATA_ANALYST_KAGGLE/data&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\DATA_ANALYST_KAGGLE\data" />
@@ -154,63 +155,6 @@
       <recent name="E:\DATA_ANALYST_KAGGLE\function\BEGINNER\utils" />
       <recent name="E:\DATA_ANALYST_KAGGLE\function\BEGINNER" />
     </key>
-  </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="ex1_1_exploration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DATA_ANALYST_KAGGLE" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function/BEGINNER" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="E:\DATA_ANALYST_KAGGLE\function\BEGINNER\ex1_1_exploration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="DATA_ANALYST_KAGGLE" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.ex1_1_exploration" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -232,7 +176,8 @@
       <workItem from="1781692022312" duration="28000" />
       <workItem from="1781692092015" duration="610000" />
       <workItem from="1781694263104" duration="2040000" />
-      <workItem from="1781763471861" duration="836000" />
+      <workItem from="1781763471861" duration="2175000" />
+      <workItem from="1781765814536" duration="2764000" />
     </task>
     <servers />
   </component>
@@ -268,12 +213,12 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_3_stats_base.coverage" NAME="ex1_3_stats_base Coverage Results" MODIFIED="1781628888257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
-    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_1_exploration.coverage" NAME="ex1_1_exploration Coverage Results" MODIFIED="1781614842755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
+    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_1_exploration.coverage" NAME="ex1_1_exploration Coverage Results" MODIFIED="1781766389333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/niveau_1_debutant" />
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_4_filtrage.coverage" NAME="ex1_4_filtrage Coverage Results" MODIFIED="1781694551771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
-    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_2_nettoyage.coverage" NAME="ex1_2_nettoyage Coverage Results" MODIFIED="1781615424053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
-    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$main.coverage" NAME="main Coverage Results" MODIFIED="1781694525522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex2_1_categories.coverage" NAME="ex2_1_categories Coverage Results" MODIFIED="1781684051929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/INTERMEDIATE/utils" />
+    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_2_nettoyage.coverage" NAME="ex1_2_nettoyage Coverage Results" MODIFIED="1781767485326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/niveau_1_debutant" />
+    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$main.coverage" NAME="main Coverage Results" MODIFIED="1781765378922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex2_1_categories.coverage" NAME="ex2_1_categories Coverage Results" MODIFIED="1781765502559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/INTERMEDIATE/utils" />
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_5_tri.coverage" NAME="ex1_5_tri Coverage Results" MODIFIED="1781681376199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
-    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex2_2_analyse_categories.coverage" NAME="ex2_2_analyse_categories Coverage Results" MODIFIED="1781684263254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/INTERMEDIATE" />
+    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex2_2_analyse_categories.coverage" NAME="ex2_2_analyse_categories Coverage Results" MODIFIED="1781765445231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/INTERMEDIATE" />
   </component>
 </project>
