@@ -4,6 +4,7 @@ import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 def print_stats(filename):
+
 	from common_utils import cleaning_numeric_columns
 	df = cleaning_numeric_columns(filename)
 	price_average_after_discount = df["discounted_price"].mean().round(2)
