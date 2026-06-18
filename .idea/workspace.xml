@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06a696bc-107f-45a6-af70-887394a21b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/niveau_1_debutant/ex1_1_exploration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/niveau_1_debutant/ex1_2_nettoyage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.6262789746704371E-6" />
-      <entry key="MS500" value="0.07573539696256704" />
-      <entry key="S2" value="0.9244034391913909" />
-      <entry key="S5" value="1.812182762762721" />
-      <entry key="S10" value="2.3552600720477357" />
-      <entry key="S30" value="4.0773618020053" />
-      <entry key="S60" value="7.371980179983984" />
-      <entry key="M2" value="13.828699135123749" />
-      <entry key="M5" value="26.288245780105854" />
-      <entry key="M10" value="44.11563432665804" />
-      <entry key="M15" value="65.15940008499136" />
-      <entry key="M30" value="135.99817643714334" />
-      <entry key="H1" value="277.407851776648" />
-      <entry key="H2" value="509.8025722241686" />
-      <entry key="H4" value="773.4071835684065" />
-      <entry key="D1" value="1172.4694872053865" />
-      <entry key="W1" value="1267.2440855743184" />
+      <entry key="MS100" value="1.0000000000004676" />
+      <entry key="MS500" value="1.0034218267284525" />
+      <entry key="S2" value="1.2893997256676528" />
+      <entry key="S5" value="2.14775719757113" />
+      <entry key="S10" value="3.37641964806671" />
+      <entry key="S30" value="7.706253846762008" />
+      <entry key="S60" value="15.94831323886316" />
+      <entry key="M2" value="29.38813279304774" />
+      <entry key="M5" value="54.72560897276058" />
+      <entry key="M10" value="82.04948845979892" />
+      <entry key="M15" value="105.50108764727405" />
+      <entry key="M30" value="176.02482185469154" />
+      <entry key="H1" value="316.8525663046254" />
+      <entry key="H2" value="554.0826162615882" />
+      <entry key="H4" value="831.1040381769752" />
+      <entry key="D1" value="1262.4268740205632" />
+      <entry key="W1" value="1366.5356976764594" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000000007" />
-      <entry key="S10" value="1.0000000272135423" />
-      <entry key="S30" value="1.0030078882140823" />
-      <entry key="S60" value="1.0548442176905957" />
-      <entry key="M2" value="1.2341890948982073" />
-      <entry key="M5" value="1.5711089392826945" />
-      <entry key="M10" value="2.185818119158882" />
-      <entry key="M15" value="3.5114178982838746" />
-      <entry key="M30" value="9.946173418919518" />
-      <entry key="H1" value="25.909362311570124" />
-      <entry key="H2" value="55.08564281756719" />
-      <entry key="H4" value="89.42992182683851" />
-      <entry key="D1" value="142.18254989413458" />
-      <entry key="W1" value="154.77254156941706" />
+      <entry key="MS100" value="3.816852002267381E-245" />
+      <entry key="MS500" value="1.3071970650990674E-49" />
+      <entry key="S2" value="6.012917788860117E-13" />
+      <entry key="S5" value="1.2931061667694887E-5" />
+      <entry key="S10" value="0.003597671876267948" />
+      <entry key="S30" value="0.17162233695541484" />
+      <entry key="S60" value="0.6121059716971466" />
+      <entry key="M2" value="1.5200095535348663" />
+      <entry key="M5" value="3.693710902457713" />
+      <entry key="M10" value="6.002057488990575" />
+      <entry key="M15" value="7.800657963729984" />
+      <entry key="M30" value="13.909529288403329" />
+      <entry key="H1" value="28.982659142248654" />
+      <entry key="H2" value="57.913263076054314" />
+      <entry key="H4" value="93.41309153548802" />
+      <entry key="D1" value="149.84337137682633" />
+      <entry key="W1" value="163.56391518987644" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="7.553886593973431E-5" />
-      <entry key="MS500" value="0.21203285513180367" />
-      <entry key="S2" value="1.380287859343845" />
-      <entry key="S5" value="2.467944473962925" />
-      <entry key="S10" value="3.1457378809402208" />
-      <entry key="S30" value="4.985897223206997" />
-      <entry key="S60" value="8.348807057644724" />
-      <entry key="M2" value="14.987110750178589" />
-      <entry key="M5" value="27.80356410840477" />
-      <entry key="M10" value="46.262302589061896" />
-      <entry key="M15" value="68.6352117360088" />
-      <entry key="M30" value="145.90436634789577" />
-      <entry key="H1" value="303.2678085993813" />
-      <entry key="H2" value="564.8369918875278" />
-      <entry key="H4" value="862.796360242537" />
-      <entry key="D1" value="1314.6414661362871" />
-      <entry key="W1" value="1422.014989709884" />
+      <entry key="MS100" value="2.0552032752675267E-10" />
+      <entry key="MS500" value="0.012010372933081315" />
+      <entry key="S2" value="0.48790204087547034" />
+      <entry key="S5" value="1.5044117543959652" />
+      <entry key="S10" value="2.8645775024700497" />
+      <entry key="S30" value="7.601499827471686" />
+      <entry key="S60" value="16.38334385126217" />
+      <entry key="M2" value="30.77051454519584" />
+      <entry key="M5" value="58.30366913918585" />
+      <entry key="M10" value="87.96037108591473" />
+      <entry key="M15" value="113.22506785081116" />
+      <entry key="M30" value="189.87267883950472" />
+      <entry key="H1" value="345.7761710501822" />
+      <entry key="H2" value="611.939896811685" />
+      <entry key="H4" value="924.4734121220699" />
+      <entry key="D1" value="1412.2588959584828" />
+      <entry key="W1" value="1530.0978521561476" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -178,7 +178,7 @@
       <workItem from="1781692092015" duration="610000" />
       <workItem from="1781694263104" duration="2040000" />
       <workItem from="1781763471861" duration="2175000" />
-      <workItem from="1781765814536" duration="583000" />
+      <workItem from="1781765814536" duration="1717000" />
     </task>
     <servers />
   </component>
@@ -214,9 +214,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_3_stats_base.coverage" NAME="ex1_3_stats_base Coverage Results" MODIFIED="1781628888257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
-    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_1_exploration.coverage" NAME="ex1_1_exploration Coverage Results" MODIFIED="1781614842755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
+    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_1_exploration.coverage" NAME="ex1_1_exploration Coverage Results" MODIFIED="1781766389333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/niveau_1_debutant" />
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_4_filtrage.coverage" NAME="ex1_4_filtrage Coverage Results" MODIFIED="1781694551771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
-    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_2_nettoyage.coverage" NAME="ex1_2_nettoyage Coverage Results" MODIFIED="1781615424053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
+    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_2_nettoyage.coverage" NAME="ex1_2_nettoyage Coverage Results" MODIFIED="1781767485326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/niveau_1_debutant" />
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$main.coverage" NAME="main Coverage Results" MODIFIED="1781765378922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex2_1_categories.coverage" NAME="ex2_1_categories Coverage Results" MODIFIED="1781765502559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/INTERMEDIATE/utils" />
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_5_tri.coverage" NAME="ex1_5_tri Coverage Results" MODIFIED="1781681376199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/function/BEGINNER" />
