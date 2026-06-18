@@ -4,6 +4,7 @@ import numpy as np
 
 def cleaning_numeric_columns(filename):
 	df = pd.read_csv(filename)
+
 	df["discounted_price"] = (df["discounted_price"].str.replace(",", "")
 	                          .str.replace("₹", "").astype(float))
 	df["actual_price"] = (df["actual_price"].str.replace(",", "")
