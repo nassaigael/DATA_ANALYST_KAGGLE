@@ -1,17 +1,26 @@
 import pandas as pd
+import numpy as np
 
 
-def clean_data(file_to_analyze):
-    df = pd.read_csv(file_to_analyze)
-    cols = ["discounted_price", "actual_price", "discount_percentage", "rating_count", "rating"]
+def cleaning_numeric_columns(filename):
+	df = pd.read_csv(filename)
+	df["discounted_price"] = (df["discounted_price"].str.replace(",", "")
+	                          .str.replace("₹", "").astype(float))
+	df["actual_price"] = (df["actual_price"].str.replace(",", "")
+	                      .str.replace("₹", "").astype(float))
+	df["discount_percentage"] = df["discount_percentage"].str.replace("%", "").astype(float)
+	df["rating"] = df["rating"].astype(float)
+	df["rating_count"] = df["rating_count"].str.replace(",", "").astype(float)
 
-    for col in cols:
-        df[col] = df[col].replace({
-            '%': '',
-            ',': '',
-            '₹': ''
-        }, regex=True)
-        df[col] = pd.to_numeric(df[col], errors='coerce', downcast='float')
-        if df[col].dtypes != "float32":
-            print(f"[ERROR] {col} is not numeric this is {df[col].dtypes}")
-    return df
+	cols_types_to_verify = ["discounted_price", "actual_price", "discount_percentage", "rating", "rating_count"]
+	for col in cols_types_to_verify:
+		if col not in df.columns:
+			print(col + " is not present in the dataframe")
+			return False
+		if df[col].dtype != np.float64:
+			print(col + " is not numeric")
+			return False
+	for col in cols_types_to_verify:
+		print(df[col].describe())
+
+	return df
