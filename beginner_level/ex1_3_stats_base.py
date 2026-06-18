@@ -1,11 +1,11 @@
-import pandas as pd
+import os
+import sys
 
-from common import cleaning_numeric_columns
-
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 def print_stats(filename):
-	df = pd.read_csv(filename)
-	# df = cleaning_numeric_columns(df)
+	from common_utils import cleaning_numeric_columns
+	df = cleaning_numeric_columns(filename)
 	price_average_after_discount = df["discounted_price"].mean().round(2)
 	return price_average_after_discount
 

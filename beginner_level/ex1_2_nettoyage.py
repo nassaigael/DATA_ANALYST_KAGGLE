@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 
-def cleaning_numeric_columns(filename):
+def cleaning__numeric_columns(filename):
 	df = pd.read_csv(filename)
 	df["discounted_price"] = (df["discounted_price"].str.replace(",", "")
 	                          .str.replace("₹", "").astype(float))
@@ -28,4 +28,4 @@ def cleaning_numeric_columns(filename):
 
 # Usage example
 file_to_test = "E:/DATA_ANALYST_KAGGLE/data/DATA_01.csv"
-print(cleaning_numeric_columns(file_to_test))
+print(cleaning__numeric_columns(file_to_test))

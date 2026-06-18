@@ -22,9 +22,6 @@ def cleaning_numeric_columns(filename):
             if df[col].dtype != np.float64:
                 print(col + " is not numeric")
                 return False
-        for col in cols_types_to_verify:
-            print(df[col].describe())
-
         return df
     except FileNotFoundError:
         return "This file doesn't exist on disk"

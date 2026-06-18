@@ -197,7 +197,7 @@ python main.py
 
 ```python
 import pandas as pd
-from common.utils import load_data
+from common_utils.utils import load_data
 
 # Load Amazon dataset
 df = load_data('data/Amazon_3_.csv')
