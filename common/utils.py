@@ -1,13 +1,11 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 
 def cleaning_numeric_columns(filename):
     from pandas.errors import EmptyDataError
     try :
-
         df = pd.read_csv(filename)
-
         df["discounted_price"] = (df["discounted_price"].str.replace(",", "")
                                   .str.replace("₹", "").astype(float))
         df["actual_price"] = (df["actual_price"].str.replace(",", "")
@@ -33,4 +31,4 @@ def cleaning_numeric_columns(filename):
     except EmptyDataError:
         return "This file is empty on disk"
     except Exception as e:
-        return f"Something went wrong {e}"
+        return e
