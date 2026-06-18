@@ -60,7 +60,7 @@ amazon-data-analyst/
 Pour éviter de réécrire le même code de nettoyage ou de calcul dans chaque fichier, on centralise les fonctions réutilisables dans `common/utils.py`. **Chaque fois qu'un exercice te demande d'écrire une fonction destinée à être réutilisée plus tard, ajoute-la dans ce fichier et exporte-la.**
 
 ```python
-# common/utils.py
+# common_utils/utils.py
 
 import pandas as pd
 import numpy as np
@@ -125,10 +125,10 @@ def calculer_discount_range(df: pd.DataFrame) -> pd.DataFrame:
 import sys
 import os
 
-# Permet d'importer common/ depuis n'importe quel sous-dossier du projet
+# Permet d'importer common_utils/ depuis n'importe quel sous-dossier du projet
 sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
-from common.utils import charger_dataset, nettoyer_colonnes_numeriques, extraire_main_category
+from common_utils.utils import charger_dataset, nettoyer_colonnes_numeriques, extraire_main_category
 
 df = charger_dataset("data/amazon.csv")
 df = nettoyer_colonnes_numeriques(df)
