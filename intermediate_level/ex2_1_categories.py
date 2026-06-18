@@ -50,6 +50,6 @@ def analyze_categories(filename: str):
 
 # Usage example
 file_to_test = "E:/DATA_ANALYST_KAGGLE/data/DATA_01.csv"
-# print(main_category(file_to_test))
-# print(count_news_category(file_to_test))
+print(main_category(file_to_test))
+print(count_news_category(file_to_test))
 analyze_categories(file_to_test)
