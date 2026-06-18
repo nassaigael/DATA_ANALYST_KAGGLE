@@ -17,6 +17,6 @@ def print_stats(path):
 
 	return price_average_after_discount, average_discount_percentage, average_rating, cheapest_product, less_product
 
-# file_to_test = "E:/DATA_ANALYST_KAGGLE/data/DATA_01.csv"
-# a, b, c, d, e = print_stats(file_to_test)
-# print(f"a = {a}$, b = {b}$, c = {c}, d = {d}$, e = {e}$")
+file_to_test = "E:/DATA_ANALYST_KAGGLE/data/DATA_01.csv"
+a, b, c, d, e = print_stats(file_to_test)
+print(f"a = {a}$, b = {b}$, c = {c}, d = {d}$, e = {e}$")
