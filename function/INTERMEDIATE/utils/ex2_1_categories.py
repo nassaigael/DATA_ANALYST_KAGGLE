@@ -1,8 +1,6 @@
-
 import matplotlib.pyplot as plt
-import utils
 
-dataframe_clean = utils.dataframe_clean
+from utils import dataframe_clean
 
 
 def create_new_cols_category(file_to_analyse):
