@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06a696bc-107f-45a6-af70-887394a21b05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/intermediate_level/ex2_2_analyse_categories.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intermediate_level/ex2_2_analyse_categories.py" beforeDir="false" afterPath="$PROJECT_DIR$/intermediate_level/ex2_2_analyse_categories.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,61 +45,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.6186599588879647" />
-      <entry key="MS500" value="3.6017559920204754" />
-      <entry key="S2" value="4.5817236542494175" />
-      <entry key="S5" value="4.8315697727971045" />
-      <entry key="S10" value="5.1475475268938515" />
-      <entry key="S30" value="8.621898200652094" />
-      <entry key="S60" value="14.557847710986687" />
-      <entry key="M2" value="24.929315353659955" />
-      <entry key="M5" value="46.89204777860374" />
-      <entry key="M10" value="76.53596501590721" />
-      <entry key="M15" value="106.2572623279337" />
-      <entry key="M30" value="197.73171760399723" />
-      <entry key="H1" value="370.67441285709714" />
-      <entry key="H2" value="665.5318686118001" />
-      <entry key="H4" value="1058.728470534523" />
-      <entry key="D1" value="1794.4768503573405" />
-      <entry key="W1" value="1993.8024909361384" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.8269553623214095E-85" />
+      <entry key="S2" value="1.1155690273109689E-21" />
+      <entry key="S5" value="8.137112117920573E-9" />
+      <entry key="S10" value="1.985479220268301E-4" />
+      <entry key="S30" value="0.18803147449655724" />
+      <entry key="S60" value="1.0863122139584835" />
+      <entry key="M2" value="3.598877383130144" />
+      <entry key="M5" value="17.59854792003835" />
+      <entry key="M10" value="45.894576580358866" />
+      <entry key="M15" value="75.2613018381569" />
+      <entry key="M30" value="166.05701600729145" />
+      <entry key="H1" value="339.67715968436903" />
+      <entry key="H2" value="637.5211434094441" />
+      <entry key="H4" value="1037.3487331492026" />
+      <entry key="D1" value="1792.6629433297078" />
+      <entry key="W1" value="1998.5600237209578" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="7.552005926590264E-294" />
-      <entry key="MS500" value="2.37472029836811E-59" />
-      <entry key="S2" value="2.2148475066345503E-15" />
-      <entry key="S5" value="1.5206834573287982E-6" />
-      <entry key="S10" value="0.0016355174924970114" />
-      <entry key="S30" value="0.22508619849465208" />
-      <entry key="S60" value="0.8849445827339399" />
-      <entry key="M2" value="2.0188633450319733" />
-      <entry key="M5" value="4.004929977146637" />
-      <entry key="M10" value="6.50582709273323" />
-      <entry key="M15" value="9.160738470002826" />
-      <entry key="M30" value="17.527706066080313" />
-      <entry key="H1" value="33.847203259488765" />
-      <entry key="H2" value="64.59657893325667" />
-      <entry key="H4" value="109.55327666908559" />
-      <entry key="D1" value="198.7469815301227" />
-      <entry key="W1" value="223.4891231502584" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000775544" />
+      <entry key="S2" value="1.0029675745739415" />
+      <entry key="S5" value="1.0974901315835432" />
+      <entry key="S10" value="1.312234097406967" />
+      <entry key="S30" value="1.6784126701257938" />
+      <entry key="S60" value="1.8253184194648027" />
+      <entry key="M2" value="1.995015411849324" />
+      <entry key="M5" value="3.1029152477986783" />
+      <entry key="M10" value="5.45328962889632" />
+      <entry key="M15" value="8.014927252946562" />
+      <entry key="M30" value="16.211551891937262" />
+      <entry key="H1" value="32.48129942080769" />
+      <entry key="H2" value="63.302249852577106" />
+      <entry key="H4" value="108.72379336268054" />
+      <entry key="D1" value="199.8822200863054" />
+      <entry key="W1" value="225.3499492878602" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.539010866664562" />
-      <entry key="MS500" value="3.5676167084183064" />
-      <entry key="S2" value="4.570914177441486" />
-      <entry key="S5" value="4.8269809284089185" />
-      <entry key="S10" value="5.145389421836407" />
-      <entry key="S30" value="8.82738914765777" />
-      <entry key="S60" value="15.400547241610218" />
-      <entry key="M2" value="26.885927219256907" />
-      <entry key="M5" value="50.83251945563083" />
-      <entry key="M10" value="82.98234426317117" />
-      <entry key="M15" value="115.35915714151021" />
-      <entry key="M30" value="215.1986240155589" />
-      <entry key="H1" value="404.46017474911434" />
-      <entry key="H2" value="730.0689089721565" />
-      <entry key="H4" value="1168.2314655087114" />
-      <entry key="D1" value="1993.2088464561787" />
-      <entry key="W1" value="2217.2892151732076" />
+      <entry key="MS100" value="0.0032847516220848214" />
+      <entry key="MS500" value="0.31864015683060404" />
+      <entry key="S2" value="0.7522626230700717" />
+      <entry key="S5" value="0.9535424417434559" />
+      <entry key="S10" value="1.1928396051203405" />
+      <entry key="S30" value="1.7975742892520983" />
+      <entry key="S60" value="2.8710504099570504" />
+      <entry key="M2" value="5.569117722929542" />
+      <entry key="M5" value="20.673773785242744" />
+      <entry key="M10" value="51.31138463824876" />
+      <entry key="M15" value="83.2343223696762" />
+      <entry key="M30" value="182.21764493113386" />
+      <entry key="H1" value="372.1023173145762" />
+      <entry key="H2" value="700.766486660988" />
+      <entry key="H4" value="1146.023341474116" />
+      <entry key="D1" value="1992.5302095512218" />
+      <entry key="W1" value="2223.90757078504" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -226,6 +227,6 @@
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$main.coverage" NAME="main Coverage Results" MODIFIED="1781765378922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex2_1_categories.coverage" NAME="ex2_1_categories Coverage Results" MODIFIED="1781789345841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intermediate_level" />
     <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex1_5_tri.coverage" NAME="ex1_5_tri Coverage Results" MODIFIED="1781788145899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beginner_level" />
-    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex2_2_analyse_categories.coverage" NAME="ex2_2_analyse_categories Coverage Results" MODIFIED="1781790247646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intermediate_level" />
+    <SUITE FILE_PATH="coverage/DATA_ANALYST_KAGGLE$ex2_2_analyse_categories.coverage" NAME="ex2_2_analyse_categories Coverage Results" MODIFIED="1781790843474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/intermediate_level" />
   </component>
 </project>
